@@ -1,51 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Mock 1</title>
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/bootstrap@5/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap@5/dist/css/bootstrap.css">
 </head>
+
 <body>
   <br>
-  <div>
-    <div>Successfully logged in.</div>
+  <div class="container">
+    <div class="alert alert-success">Successfully logged in.</div>
 
-    <div>
+    <div class="alert alert-secondary text-center">
       <h1>Welcome to our website!</h1>
       <p>
         Look at these buttons:
       </p>
-      <a href="#">Go!</a>
-      <a href="#">Warning!</a>
-      <a href="#">Danger!</a>
+      <a href="#" class="btn btn-primary">Go!</a>
+      <a href="#" class="btn btn-warning">Warning!</a>
+      <a href="#" class="btn btn-outline-danger">Danger!</a>
     </div>
-    <h3>
-      Let's look at some random pictures!
-      <small>from https://picsum.photos/</small>
-    </h3>
-    <div>
-      <div>
-        <img src="https://picsum.photos/300/230">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga repellat,
-        quo, qui illum voluptatibus esse corporis aut quia deserunt voluptatem.
-      </div>
-      <div>
-        <img src="https://picsum.photos/300/230">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga repellat,
-        quo, qui illum voluptatibus esse corporis aut quia deserunt voluptatem.
-      </div>
-      <div>
-        <img src="https://picsum.photos/300/230">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga repellat,
-        quo, qui illum voluptatibus esse corporis aut quia deserunt voluptatem.
+    <div class="d-none d-sm-block">
+      <h3>
+        Let's look at some random pictures!
+        <small>from https://picsum.photos/</small>
+      </h3>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <img class="img-thumbnail" src="https://picsum.photos/300/230">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga repellat,
+            quo, qui illum voluptatibus esse corporis aut quia deserunt voluptatem.
+          </p>
+        </div>
+        <div class="col-12 col-md-4">
+          <img class="img-thumbnail" src="https://picsum.photos/300/230">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga repellat,
+            quo, qui illum voluptatibus esse corporis aut quia deserunt voluptatem.
+          </p>
+        </div>
+        <div class="col-12 col-md-4">
+          <img class="img-thumbnail" src="https://picsum.photos/300/230">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga repellat,
+            quo, qui illum voluptatibus esse corporis aut quia deserunt voluptatem.
+          </p>
+        </div>
       </div>
     </div>
   </div>
 </body>
-</html>
 
+</html>
